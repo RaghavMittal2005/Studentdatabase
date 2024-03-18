@@ -1,22 +1,41 @@
 # Studentdatabase
 Student Database
-<br>Author-Raghav Mittal(B23CM1032)
-This is a simple console-based program written in C that allows users to manage student records. It provides various operations such as adding, finding, updating, and deleting student details.<br>
+Student Database Management System (SDMS) - README
 
-<h3>Features</h3>
-<h4>1)Add Student Details</h4> Add new student records including their first name, last name, roll number, CGPA, and course name.
-<h4>2)Find Student Details</h4> Find student details either by first name or roll number.
-<h4>3)Update Student Details</h4> Update existing student records with correct information.
-<h4>4)Delete Student Details</h4> Delete student records by roll number.
-<h4>5)User-friendly Interface</h4> Simple and intuitive console interface for easy interaction.
-<h3>How to Use</h3>
-Compile the Program: Compile the program using any C compiler. For example, you can use gcc:
+Objective:
+The Student Database Management System (SDMS) project aims to provide a user-friendly solution for managing student records in educational institutions. Its primary objectives include efficient handling of student data and easy accessibility for administrators.
 
+Functionalities:
+
+Add Student Details: Allows users to input and store student information, including first name, last name, roll number, CGPA, and course name.
+Find Student Details: Provides options to search for student records by first name or roll number.
+Update Student Details: Enables users to modify existing student records with corrected information.
+Delete Student Details: Allows removal of student records based on the provided roll number.
+User-friendly Interface: Simple and intuitive console-based interface for easy navigation and interaction.
+Usage Guidelines:
+
+Prerequisites:
+
+Ensure you have a C compiler installed on your system (e.g., GCC for Linux or MinGW for Windows).
+Basic knowledge of using the command line interface.
+Running the Program:
+
+Clone or download the source code repository to your local machine.
+Open a terminal or command prompt and navigate to the directory containing the source code files.
+Compile the program using the following command:
 Copy code
 gcc -o student_management_system student_management_system.c
-Run the Program: Execute the compiled binary:
-
+Run the compiled binary:
 bash
 Copy code
 ./student_management_system
-Follow On-Screen Instructions: Follow the on-screen menu to perform various operations like adding, finding, updating, or deleting student records.
+Functionality Overview:
+
+Upon running the program, you will be presented with a menu displaying various operations.
+Choose the desired operation by entering the corresponding number.
+Follow the on-screen instructions to perform the selected operation.
+Repeat steps as needed to manage student records effectively.
+Dependencies:
+
+This project has no external dependencies and can be compiled and run using standard C libraries.
+
